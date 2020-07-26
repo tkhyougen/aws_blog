@@ -5,7 +5,7 @@ lock '3.6.0'
 set :application, 'aws_blog'
 # cloneするgitのレポジトリ
 # （xxxxxxxx：ユーザ名、yyyyyyyy：アプリケーション名）
-set :repo_url, 'https://github.com/tkhyougen/aws-blog.git'
+set :repo_url, 'https://github.com/tkhyougen/aws_blog.git'
 # deployするブランチ。デフォルトはmasterなのでなくても可。
 set :branch, ENV['BRANCH'] || 'master'
 # deploy先のディレクトリ。
