@@ -1,0 +1,30 @@
+current directory: /home/vagrant/workspace/aws_blog/vendor/bundle/ruby/2.6.0/gems/unicorn-5.6.0/ext/unicorn_http
+/home/vagrant/.rbenv/versions/2.6.5/bin/ruby -I /home/vagrant/.rbenv/versions/2.6.5/lib/ruby/2.6.0 -r ./siteconf20200726-10085-13tr9ho.rb extconf.rb
+checking for SIZEOF_OFF_T in ruby.h... yes
+checking for SIZEOF_SIZE_T in ruby.h... yes
+checking for SIZEOF_LONG in ruby.h... yes
+checking for rb_str_set_len() in ruby.h... yes
+checking for rb_hash_clear() in ruby.h... yes
+checking for gmtime_r() in time.h... yes
+checking if String#-@ (str_uminus) dedupes... yes
+checking if Hash#[]= (rb_hash_aset) dedupes... yes
+creating Makefile
+
+current directory: /home/vagrant/workspace/aws_blog/vendor/bundle/ruby/2.6.0/gems/unicorn-5.6.0/ext/unicorn_http
+make "DESTDIR=" clean
+make: Warning: File 'Makefile' has modification time 2.9 s in the future
+make: warning:  Clock skew detected.  Your build may be incomplete.
+
+current directory: /home/vagrant/workspace/aws_blog/vendor/bundle/ruby/2.6.0/gems/unicorn-5.6.0/ext/unicorn_http
+make "DESTDIR="
+make: Warning: File 'Makefile' has modification time 2.9 s in the future
+compiling httpdate.c
+compiling unicorn_http.c
+linking shared-object unicorn_http.so
+make: warning:  Clock skew detected.  Your build may be incomplete.
+
+current directory: /home/vagrant/workspace/aws_blog/vendor/bundle/ruby/2.6.0/gems/unicorn-5.6.0/ext/unicorn_http
+make "DESTDIR=" install
+make: Warning: File 'unicorn_http.so' has modification time 2.9 s in the future
+/usr/bin/install -c -m 0755 unicorn_http.so ./.gem.20200726-10085-wi8nej
+make: warning:  Clock skew detected.  Your build may be incomplete.

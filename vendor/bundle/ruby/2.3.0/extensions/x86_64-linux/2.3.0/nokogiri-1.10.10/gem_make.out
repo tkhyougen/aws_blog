@@ -1,0 +1,5 @@
+current directory: /home/vagrant/workspace/aws_blog/vendor/bundle/ruby/2.3.0/gems/nokogiri-1.10.10/ext/nokogiri
+/usr/bin/ruby2.3 -r ./siteconf20200726-29798-153ukx9.rb extconf.rb --use-system-libraries
+mkmf.rb can't find header files for ruby at /usr/lib/ruby/include/ruby.h
+
+Text file busy @ unlink_internal - ./siteconf20200726-29798-153ukx9.rb
