@@ -1,3 +1,4 @@
+require 'active_support/core_ext/hash/keys'
 # config valid only for current version of Capistrano
 lock '3.6.0'
 # デプロイするアプリケーション名
